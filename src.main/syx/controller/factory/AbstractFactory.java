@@ -1,4 +1,4 @@
-package syx.controller;
+package syx.controller.factory;
 
 import syx.util.factory.abstracts.Animal;
 import syx.util.factory.abstracts.Plant;

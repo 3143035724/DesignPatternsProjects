@@ -1,4 +1,4 @@
-package syx.controller;
+package syx.controller.factory;
 
 import syx.util.factory.simple.Simple;
 import syx.util.factory.simple.SimpleContest;
