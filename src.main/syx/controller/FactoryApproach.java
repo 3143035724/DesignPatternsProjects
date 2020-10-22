@@ -27,6 +27,8 @@ public class FactoryApproach {
          * 2) 具体工厂: 实现抽象工厂中的抽象方法,完成具体产品的创建
          * 3) 抽象产品: 定义产品的规范,描述产品的主要特性和功能
          * 4) 具体产品: 实现抽象产品角色所定义的接口,由具体工厂创建,与具体工厂之间一一对应
+     * 5.注意事项
+         * 1)工厂方法模式只考虑生产同等级的产品
      */
     public static void main(String[] args) {
         CreateFactoryClassTwo createFactoryClassTwo = new CreateFactoryClassTwo();
