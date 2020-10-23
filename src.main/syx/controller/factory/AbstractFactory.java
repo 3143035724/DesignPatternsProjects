@@ -36,8 +36,9 @@ public class AbstractFactory {
     public static void main(String[] args) {
         SRfarm sRfarm = new SRfarm();
         Animal animal = sRfarm.newAnimal();
-        Plant plant = sRfarm.newPlant();
         animal.show();
+        System.out.println("^~^--------------^~^我是可爱的分割线^~^--------------^~^");
+        Plant plant = sRfarm.newPlant();
         plant.show();
     }
 }
