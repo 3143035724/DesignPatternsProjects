@@ -1,7 +1,13 @@
 package syx.controller;
 
+import org.junit.Test;
+import syx.entity.MyJob;
 import syx.util.singleton.HungrySingleton;
 import syx.util.singleton.LazySingleton;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 单例模式
